@@ -3,7 +3,7 @@
 
 We use 3 types of asymptotic notations to represent the growth of any algorithm, as input increases:
 
-1. Big Oh(O)
+1. Big Oh (O)
 2. Big Omega (Ω)
 3. Big Theta (Θ)
 
