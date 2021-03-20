@@ -1,5 +1,7 @@
 // This program is to check if a singly linked list is a palindrome or not.
 // And, A singly linked list is a linked list that can be traversed in only one direction from head to the last node, i.e Unidirectional essentially.
+//Something like so: 1-> 2-> 3-> 4 -> 5 -> NULL
+
 // A string is said to be palindrome if it reads the same backward as forward. 
 // eg. racecar, madam etc.
 
