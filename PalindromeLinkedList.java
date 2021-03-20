@@ -123,7 +123,7 @@ class Palindrome
 
 public class Main
 {
-  public static void main (String[]args)
+  public static void main (String[] args)
   {
 
     Scanner sc = new Scanner (System.in);
@@ -131,7 +131,7 @@ public class Main
 
     //Add nodes to the list.  
     System.out.println("Enter the string: ");
-    String str=sc.nextLine().trim();
+    String str= sc.nextLine().trim();
 
     for(int i=0;i<str.length();i++)
         list.add(str.charAt(i));
