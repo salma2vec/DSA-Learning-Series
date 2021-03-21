@@ -110,3 +110,29 @@ public class Insertion
     System.out.println("~ SALMA (^.^) ");
   }
 }
+
+
+/* Created a singly linked list...Now, Insertion.
+The Singly Linked List is as follows: 
+10 -> NULL.
+
+The Singly Linked List is as follows: 
+20 -> 10 -> NULL.
+
+The Singly Linked List is as follows: 
+20 -> 10 -> 50 -> NULL.
+
+The Singly Linked List is as follows: 
+20 -> 10 -> 50 -> 30 -> NULL.
+
+The Singly Linked List is as follows: 
+40 -> 20 -> 10 -> 50 -> 30 -> NULL.
+
+The Singly Linked List is as follows: 
+40 -> 20 -> 10 -> 20 -> 50 -> 30 -> NULL.
+
+The Singly Linked List is as follows: 
+40 -> 20 -> 10 -> 20 -> 50 -> 40 -> 30 -> NULL.
+
+~ SALMA (^.^) 
+*/
