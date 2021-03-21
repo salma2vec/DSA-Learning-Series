@@ -8,7 +8,7 @@ public class Insertion
     private int data;
     private Node next;
 
-    public Node(int data)
+    public Node (int data)
     {
       this.data = data;
       this.next = null;
@@ -73,7 +73,7 @@ public class Insertion
   {
     if (this.head == null)
       {
-	System.out.println("Beep. Beep. This List is empty.");
+	System.out.println("Beep. Beep. The List is empty.");
       }
     else
       {
@@ -92,20 +92,20 @@ public class Insertion
   {
     Insertion list = new Insertion();
     System.out.println("Created a singly linked list...Now, Insertion.");
-    list.addNodeAtTheBeginning(10);
+    list.addNodeAtTheBeginning(30);
     list.print();
     list.addNodeAtTheBeginning (20);
     list.print();
     list.addNodeAtTheEnd(50);
     list.print();
-    list.addNodeAtTheEnd(30);
+    list.addNodeAtTheEnd(70);
 
     list.print();
-    list.add(1, 40);
+    list.add(1, 10);
     list.print();
-    list.add(4, 20);
+    list.add(4, 40);
     list.print();
-    list.add(6, 40);
+    list.add(6, 60);
     list.print();
     System.out.println("~ SALMA (^.^) ");
   }
@@ -114,25 +114,25 @@ public class Insertion
 
 /* Created a singly linked list...Now, Insertion.
 The Singly Linked List is as follows: 
-10 -> NULL.
+30 -> NULL.
 
 The Singly Linked List is as follows: 
-20 -> 10 -> NULL.
+20 -> 30 -> NULL.
 
 The Singly Linked List is as follows: 
-20 -> 10 -> 50 -> NULL.
+20 -> 30 -> 50 -> NULL.
 
 The Singly Linked List is as follows: 
-20 -> 10 -> 50 -> 30 -> NULL.
+20 -> 30 -> 50 -> 70 -> NULL.
 
 The Singly Linked List is as follows: 
-40 -> 20 -> 10 -> 50 -> 30 -> NULL.
+10 -> 20 -> 30 -> 50 -> 70 -> NULL.
 
 The Singly Linked List is as follows: 
-40 -> 20 -> 10 -> 20 -> 50 -> 30 -> NULL.
+10 -> 20 -> 30 -> 40 -> 50 -> 70 -> NULL.
 
 The Singly Linked List is as follows: 
-40 -> 20 -> 10 -> 20 -> 50 -> 40 -> 30 -> NULL.
+10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> NULL.
 
 ~ SALMA (^.^) 
 */
