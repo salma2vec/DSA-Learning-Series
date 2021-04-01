@@ -6,6 +6,7 @@
 // eg. racecar, madam etc.
 
 import java.util.*;
+import static java.lang.System.out;
 class Node
 {
   int data;
@@ -19,7 +20,7 @@ class Node
 
 class Palindrome
 {
-  int n;
+  int n, mid;
   //Represent the head and tail of the singly linked list  
   public Node head = null;
   public Node tail = null;
@@ -71,9 +72,14 @@ class Palindrome
     Node current = head;
     boolean flag = true;
 
-    //Store the mid position of the list  
-    int mid = (n % 2 == 0) ? (n / 2) : ((n + 1) / 2);
-
+    //Store the mid position of the list 
+    if(n % 2 == 0){
+    int mid = (n / 2);
+    }
+    else{
+      int mid = ((n + 1) / 2);
+    }
+    
     //Find the middle node in the given singly linked list  
     for (int i = 1; i < mid; i++)
       {
@@ -81,7 +87,7 @@ class Palindrome
       }
 
     //Reverse the list after middle node to end. 
-    Node rev = reverseList (current.next);
+    Node rev = reverseList(current.next);
 
     //Compare nodes of first half and second half of list  
     while (head != null && rev != null)
@@ -96,9 +102,9 @@ class Palindrome
       }
 
     if (flag)
-      System.out.println ("Given linked list is a palindrome.");
+      out.println("Given linked list is a palindrome.");
     else
-      System.out.println ("Given linked list is NOT a palindrome.");
+      out.println("Given linked list is NOT a palindrome.");
   }
 
   //display() will display all the nodes present in the list. 
@@ -109,39 +115,38 @@ class Palindrome
 
     if (head == null)
       {
-	System.out.println ("List is empty.");
+	out.println ("List is empty.");
 	return;
       }
-    System.out.println ("Nodes of the linked list: ");
+    out.println ("Nodes of the linked list: ");
     while (current != null)
       {
 	//Prints each node by incrementing pointer.  
-	System.out.print ((char)current.data + " ");
+	out.print ((char)current.data + " ");
 	current = current.next;
       }
-    System.out.println ();
+    out.println ();
   }
 }
 
 public class Main
 {
-  public static void main (String[] args)
+  public static void main (String[] args) throws Exception
   {
-
-    Scanner sc = new Scanner (System.in);
+    Scanner sc = new Scanner(System.in);
     Palindrome list = new Palindrome();
 
     //Add nodes to the list.  
-    System.out.println("Enter the string: ");
-    String str= sc.nextLine().trim();
+    System.out.println("User, Go ahead & Enter the string: ");
+    String str = sc.nextLine().trim().toLowerCase();
 
     for(int i=0;i<str.length();i++)
         list.add(str.charAt(i));
 
-    list.display ();
+    list.display();
 
     //Checks whether given list is palindrome or not.  
-    list.isPalindrome ();
+    list.isPalindrome();
   }
 }
 
