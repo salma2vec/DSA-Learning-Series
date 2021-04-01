@@ -29,10 +29,26 @@ public class Main {
         Node y = b.first.next;
         while (x != null || y != null) {
             Node t = null;
-            if      (x == null)     { t = new Node(y.coef, y.exp);  y = y.next; }
-            else if (y == null)     { t = new Node(x.coef, x.exp);  x = x.next; }
-            else if (x.exp > y.exp) { t = new Node(x.coef, x.exp);  x = x.next; } 
-            else if (x.exp < y.exp) { t = new Node(y.coef, y.exp);  y = y.next; } 
+            if      (x == null)     
+            { 
+                t = new Node(y.coef, y.exp);  
+                y = y.next; 
+            }
+            else if (y == null)     
+            { 
+                t = new Node(x.coef, x.exp);  
+                x = x.next; 
+            }
+            else if (x.exp > y.exp) 
+            { 
+                t = new Node(x.coef, x.exp);  
+                x = x.next; 
+            } 
+            else if (x.exp < y.exp) 
+            { 
+                t = new Node(y.coef, y.exp);  
+                y = y.next; 
+            } 
 
             else {
                 int coef = x.coef + y.coef;
@@ -45,21 +61,6 @@ public class Main {
         
             c.last.next = t;
             c.last = c.last.next;
-        }
-        return c;
-    }
-
-
-    public Main times(Main b) {
-        Main a = this;
-        Main c = new Main();
-        for (Node x = a.first.next; x!= null; x = x.next) {
-            Main temp = new Main();
-            for (Node y = b.first.next; y!= null; y = y.next) {
-                temp.last.next = new Node(x.coef * y.coef, x.exp + y.exp);
-                temp.last = temp.last.next;
-            }
-            c = c.plus(temp);
         }
         return c;
     }
