@@ -1,7 +1,7 @@
 import java.util.*;
 import static java.lang.System.out;
 public class Main {
-    private Node first = new Node(0, 0);  // sentinel
+    private Node first = new Node(0, 0); 
     private Node last  = first;
 
     private static class Node {
