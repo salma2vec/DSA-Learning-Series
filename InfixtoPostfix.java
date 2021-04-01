@@ -55,3 +55,11 @@ public class Main {
         System.out.println("Postfix Expression: " + infixToPostFix(exp));
     }
 }
+
+/* 
+Output:
+Enter the Infix Expression:                                                                           
+Ab+c*d                                                                                                
+Infix Expression: Ab+c*d                                                                              
+Postfix Expression: Abcd*+ 
+*/
