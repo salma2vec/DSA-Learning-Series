@@ -1,3 +1,12 @@
+/* Pseudocode:
+Steps -
+- If we get an opening bracket we will simply push it to stack.
+- If we get a closing bracket we will compare the top element.
+- If there is not a match of closing and opening brackets we can return False.
+- Else we will pop the top element and continue.
+- At last if the stack is empty, we can conclude that the expression is balanced.
+*/
+
 import java.util.*;
 import static java.lang.System.out;
 public class Main {
