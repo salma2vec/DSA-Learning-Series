@@ -13,17 +13,15 @@ public class Main {
             this.exp  = exp;
         }
     }
-
-    // 0    
+  
     private Main() { }
 
-    // a * x^b
+
     public Main(int coef, int exp) {
         last.next = new Node(coef, exp);
         last = last.next;
     }
 
-    // return c = a + b
     public Main plus(Main b) {
         Main a = this;
         Main c = new Main();
@@ -52,7 +50,6 @@ public class Main {
     }
 
 
-    // return c = a + b
     public Main times(Main b) {
         Main a = this;
         Main c = new Main();
