@@ -44,20 +44,20 @@ static Node push(Node head, char new_data)
 }
   
 static Node rotate(Node head, 
-                   int N, int size)
+                   int K, int size)
 {
 
-    N = N % size;
+    K = K % size;
 
-    N = size - N;
+    K = size - K;
   
-    if (N == 0)
+    if (K == 0)
         return null;
   
     Node current = head;
 
     int count = 1;
-    while (count < N && current != null) 
+    while (count < K && current != null) 
     {
         current = current.next;
         count++;
@@ -93,14 +93,14 @@ public static void main(String[] args) throws Exception
     head = push(head, 'b');
     head = push(head, 'a');
   
-    int N = 2;
+    int K = 3;
   
     // Length of the list
     int size = size(head);
   
     System.out.println("The given Doubly linked list is as follows: ");
     print(head);
-    head = rotate(head, N, size);
+    head = rotate(head, K, size);
   
     System.out.println("\nThe clockwise Rotated Linked list: ");
     print(head);
@@ -113,5 +113,5 @@ Output:
 The given Doubly linked list is as follows:                                                           
 a <=> b <=> c <=> d <=> e                                                                             
 The clockwise Rotated Linked list:                                                                    
-d <=> e <=> a <=> b <=> c  
+c <=> d <=> e <=> a <=> b 
 */
