@@ -3,7 +3,7 @@ You are given a linked list, L, and another linked list, P,
 containing integers sorted in ascending order. The operation PrintLots(L, P) will print
 elements in L that are in positions specified by P. For instance, if P = 1, 3, 4, 6, the first,
 third, fourth, and sixth elements in L are printed. Write the procedure PrintLots(L, P).
-You should use only the basic list operations. What is the running time of your procedure?
+You should use only the basic list operations.
 */
 //Solution.
 
@@ -24,3 +24,8 @@ L_pos = L_pos->Next;
 Counter++;
 }
 }
+
+// What is the running time of your procedure?
+/* 
+By assuming the length of L is l and the length of P is p, we get the running time of the above procedure to be O(l + p).
+*/
