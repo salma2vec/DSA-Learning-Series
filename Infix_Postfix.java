@@ -1,4 +1,13 @@
-//Infix to Postfix Conversion program in Java using stack.
+// Infix to Postfix Conversion program in Java using stack.
+/* 
+Algorithm to evaluate postfix expression
+1. Read a character
+2. If the character is a digit, convert the character into int and push the integer into the stack.
+3. If the character is an operator,
+4. Pop the elements from the stack twice obtaining two operands.
+5. Perform the operation
+6. Push the result into the stack.
+*/
 
 import java.util.*;
 import static java.lang.System.out;
