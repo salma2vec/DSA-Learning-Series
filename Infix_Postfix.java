@@ -9,6 +9,21 @@ Algorithm to evaluate postfix expression
 6. Push the result into the stack.
 */
 
+/*
+Rules for the conversion from infix to postfix expression
+
+- Print the operand as they arrive.
+- If the stack is empty or contains a left parenthesis on top, push the incoming operator on to the stack.
+- If the incoming symbol is '(', push it on to the stack.
+- If the incoming symbol is ')', pop the stack and print the operators until the left parenthesis is found.
+- If the incoming symbol has higher precedence than the top of the stack, push it on the stack.
+- If the incoming symbol has lower precedence than the top of the stack, pop and print the top of the stack. Then test the incoming operator against the new top of the stack.
+- If the incoming operator has the same precedence with the top of the stack then use the associativity rules. If the associativity is from left to right then pop and print the top of the stack then push the incoming operator. If the associativity is from right to left then push the incoming operator.
+- At the end of the expression, pop and print all the operators of the stack.
+*/
+
+
+
 import java.util.*;
 import static java.lang.System.out;
 
