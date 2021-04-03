@@ -115,7 +115,7 @@ class Palindrome
 
     if (head == null)
       {
-	out.println ("List is empty.");
+	out.println ("Beep. Beep. List is empty.");
 	return;
       }
     out.println ("Nodes of the linked list: ");
