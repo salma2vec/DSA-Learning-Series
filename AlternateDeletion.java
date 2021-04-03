@@ -10,7 +10,8 @@ public class Main
         Node next;
         Node(int d) 
         {
-            data = d; next = null; 
+            data = d; 
+            next = null; 
             
         }
     }
