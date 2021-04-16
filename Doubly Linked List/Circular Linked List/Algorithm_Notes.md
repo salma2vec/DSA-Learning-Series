@@ -1,4 +1,9 @@
-## Algorithm to insert a new node in the beginning of the circular doubly linked list
+# Circular Doubly Linked List Algorithms 
+
+
+## 1) Insertion
+
+### Algorithm to insert a new node in the beginning of the circular doubly linked list
 - Step 1: Create New_node
 - Step 2: SET New_Node->DATA = VAL
 - Step 3: SET START->PREV->NEXT = new_node;
@@ -9,7 +14,7 @@
 - Step 8: EXIT
 
 
-## Algorithm to insert a new node at the end of the circular doubly linked list
+### Algorithm to insert a new node at the end of the circular doubly linked list
 - Step 1: Create New_node
 - Step 2: SET New_Node->DATA = VAL
 - Step 3: SET New_Node->Next = START
@@ -19,7 +24,7 @@
 - Step 7: EXIT
 
 
-## Algorithm to insert a new node after a node that has value NUM
+### Algorithm to insert a new node after a node that has value NUM
 - Step 1: Create New_node
 - Step 2: SET New_Node->DATA = VAL
 - Step 3: SET PTR = START
@@ -32,8 +37,9 @@
 - Step 9: SET PTR->NEXT = New_Node
 - Step 10: EXIT
 
+## 2) Deletion
 
-## Algorithm to delete the first node from the circular doubly linked list
+### Algorithm to delete the first node from the circular doubly linked list
 - Step 1: IF START = NULL, then
 
 Write UNDERFLOW
@@ -49,7 +55,7 @@ Go to Step 8
 - Step 7: EXIT
 
 
-## Algorithm to delete the last node of the circular doubly linked list
+### Algorithm to delete the last node of the circular doubly linked list
 -Step 1: IF START = NULL, then
 
 Write UNDERFLOW
@@ -64,7 +70,7 @@ Go to Step 8
 - Step 6: EXIT
 
 
-## Algorithm to delete the node after a given node from the circular doubly linked list
+### Algorithm to delete the node after a given node from the circular doubly linked list
 - Step 1: IF START = NULL, then
 - 
 Write UNDERFLOW
