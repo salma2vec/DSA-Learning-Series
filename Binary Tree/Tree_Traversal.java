@@ -93,3 +93,15 @@ public class Main {
         tree.printPostorder();
     }
 }
+
+
+/* Output:
+
+Preorder traversal of binary tree is
+1 2 4 5 3 
+Inorder traversal of binary tree is
+4 2 5 1 3 
+Postorder traversal of binary tree is
+4 5 2 3 1
+
+*/
