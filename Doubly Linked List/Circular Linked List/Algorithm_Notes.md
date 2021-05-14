@@ -56,7 +56,7 @@ Go to Step 8
 
 
 ### Algorithm to delete the last node of the circular doubly linked list
--Step 1: IF START = NULL, then
+- Step 1: IF START = NULL, then
 
 Write UNDERFLOW
 
