@@ -72,7 +72,6 @@ Go to Step 8
 
 ### Algorithm to delete the node after a given node from the circular doubly linked list
 - Step 1: IF START = NULL, then
-- 
 Write UNDERFLOW
 
 Go to Step 9
