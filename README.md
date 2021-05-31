@@ -7,3 +7,7 @@
 ## License
 
 This repository is under The MIT License. Read the [LICENSE](https://github.com/IdealisticINTJ/CSE-2001_DSA/blob/master/LICENSE) here for more information.
+
+## Contributors:
+- Salma
+- Ruthwik
