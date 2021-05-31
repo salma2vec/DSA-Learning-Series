@@ -1,6 +1,5 @@
-- UPDATE CONTRIBUTING.MD WITH YOUR GITHUB HANDLE AND NAME.
 
-->> My *colleagues* can star, fork or clone your the repo and add any type of Data Structures or Algorithm codes and can raise PRs. :sparkle:
+->> My **colleagues** can star, fork or clone the repo and add any type of Data Structures or Algorithm codes and can raise PRs. 
 
 ->> Use this repo for getting started with contributing to open source!
 
@@ -20,4 +19,4 @@
 - Click 'Create pull request' to open a new pull request.
 
 
-*Happy coding!* :smile:
+## **Happy coding!** :smile:
