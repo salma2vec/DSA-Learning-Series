@@ -171,3 +171,14 @@ public class Main
 
   }
 }
+/* 
+Output:
+
+Binary search tree after insertion: 
+
+10 20 30 40 50 
+
+Binary search tree after deletion: 
+
+10 20 40 
+*/
