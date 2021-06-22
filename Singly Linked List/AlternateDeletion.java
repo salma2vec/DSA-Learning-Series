@@ -18,23 +18,14 @@ public class Main
  
     void AlternateDelete()
     {
-       if (head == null)
-          return;
- 
-       Node prev = head;
-       Node cur = head.next;
- 
-       while (prev != null && cur != null)
-       {          
-           prev.next = cur.next;
-           cur = null;
- 
-           prev = prev.next;
-           if (prev != null)
-              cur = prev.next;
-       }
+       Node curr = head;
+        
+        while(curr!=null && curr.next!=null){
+            curr.next = curr.next.next;
+            curr = curr.next;
+        }
     }                
-
+    
     public void insert(int new_data)
     {
         Node new_node = new Node(new_data);
