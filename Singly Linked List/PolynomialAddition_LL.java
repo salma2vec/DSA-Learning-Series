@@ -1,3 +1,10 @@
+/*
+– Step 1: loop around all values of linked list and follow step 2 & 3.
+– Step 2: if the value of a node’s exponent. is greater, copy this node to result node and head towards the next node.
+– Step 3: if the values of both node’s exponent is same add the coefficients and then copy the added value with node to the result.
+– Step 4: Print the resultant node
+*/
+
 import java.util.*;
 import static java.lang.System.out;
 public class Main {
