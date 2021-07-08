@@ -1,2 +1,2 @@
 - https://yongdanielliang.github.io/animation/web/BST.html
-- https://www.codesdope.com/course/data-structures-avl-trees/
+- https://www.codesdope.com/course/data-structures-avl-trees/ (Insertion & Deletion)
