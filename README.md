@@ -1,4 +1,6 @@
 # Java Data Structures and Algorithms Notes 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
 
  ##  :sparkle: [Comprehensive Notes](https://www.notion.so/d24d64aaa0ec48e5a7e15ba7bd8147e8?v=e2359cec66d94edf8f94590581f5a65d) :sparkle:
 
